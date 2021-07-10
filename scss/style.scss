@@ -1,2 +1,33 @@
 @import "components/colors";
-@import "components/sizes"
+@import "components/sizes";
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+header{ 
+    background-color: $Darkmain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   ul{
+
+       display: flex;
+       justify-content: space-around;
+       margin: 0%;
+       padding: 0%;
+       a{
+           color: white;
+       }
+   }
+}
+.menu{
+    width: $menu;
+    margin: $margins-header;
+}
+.logo_up{
+    margin: $margins-header;
+   
+}
