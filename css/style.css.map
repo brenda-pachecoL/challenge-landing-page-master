@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "../scss/style.scss",
-        "../scss/components/_colors.scss"
+        "../scss/components/_colors.scss",
+        "../scss/components/_zises.scss"
     ],
     "names": [],
     "file": "style.css"
