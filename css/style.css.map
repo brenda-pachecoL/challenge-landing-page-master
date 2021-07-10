@@ -4,7 +4,7 @@
     "sources": [
         "../scss/style.scss",
         "../scss/components/_colors.scss",
-        "../scss/components/_zises.scss"
+        "../scss/components/_sizes.scss"
     ],
     "names": [],
     "file": "style.css"
