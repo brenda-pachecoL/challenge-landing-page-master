@@ -31,3 +31,28 @@ header{
     margin: $margins-header;
    
 }
+main{
+    background-color: $Darkmain;
+    
+}
+.information-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-intro{
+    display: flex;
+    justify-content: center;
+    width: $contenedor-inf-up;
+    img{
+        width: 100%;
+    }
+}
+.text-up{
+    width: $contenedor-inf-up;
+    text-align: center;
+    color: $White;
+    img{
+        width: 100%;
+    }
+}

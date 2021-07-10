@@ -39,4 +39,45 @@ header ul a {
 .logo_up {
   margin: 20px;
 }
+
+main {
+  background-color: #181f2a;
+}
+
+.information-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+}
+
+.img-intro img {
+  width: 100%;
+}
+
+.text-up {
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.text-up img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
