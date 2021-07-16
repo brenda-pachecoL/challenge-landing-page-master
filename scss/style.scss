@@ -75,3 +75,21 @@ main{
     margin: $margins-op-up;
     color: $White;
 }
+.cont-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $White;
+    
+    img{
+        width: 100%;
+    }
+    div{
+        width: 40%;
+    }
+    .img-productive{
+        width: 40%;
+    }
+   
+    
+}
