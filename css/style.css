@@ -161,8 +161,41 @@ main {
   background-color: #202a3c;
 }
 
+.profile p {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+}
+
+.descriptio-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10%;
+}
+
 .descriptio-profile img {
+  height: 10%;
   width: 30px;
   border-radius: 30px;
+}
+
+.descriptio-profile div {
+  margin: 0% 0% 0% 3%;
+  padding: 0%;
+}
+
+.descriptio-profile div p {
+  padding: 0%;
+  margin: 0%;
+}
+
+.descriptio-profile div h5 {
+  padding: 0%;
+  margin: 0%;
 }
 /*# sourceMappingURL=style.css.map */
