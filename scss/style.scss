@@ -100,6 +100,7 @@ main{
     justify-content: space-around;
 }
 .profile{
+    margin: 10% 0 20% 0%;
     width: 27%;
     border-radius: 5px;
     color: $White;
@@ -134,6 +135,44 @@ main{
             margin: 0%;
           }
       }
-
-  
 }
+.sign-up{
+    width: 60%;
+    background-color: $testimonials;
+    
+}
+
+footer{
+    background-color: $Darkfooter;
+    display: flex;
+    height: 300px;
+    align-items: baseline;
+    color: $White;
+
+}
+.descripcion-footer{
+    width: 25%;
+    margin: 5%;
+
+}
+.contact{
+    width: 15%;
+    
+}
+.first-option{
+    width: 15%;
+    ul{
+        display: flex;
+        flex-direction: column;
+        a{
+            margin: 5%;
+            text-decoration: none;
+            color: $White;
+        }
+    }
+    
+}
+.icons{
+    background-color: brown;
+}
+
