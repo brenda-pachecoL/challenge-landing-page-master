@@ -141,6 +141,10 @@ main {
   width: 40%;
 }
 
+.cont-center a {
+  color: aqua;
+}
+
 .container-profile {
   width: 100%;
   display: -webkit-box;
@@ -216,6 +220,9 @@ footer {
       -ms-flex-align: baseline;
           align-items: baseline;
   color: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .descripcion-footer {
@@ -248,7 +255,13 @@ footer {
 }
 
 .icons {
-  background-color: brown;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 375px) {

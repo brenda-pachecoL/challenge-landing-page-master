@@ -91,6 +91,10 @@ main{
     .img-productive{
         width: 40%;
     }
+    a{
+
+    color: aqua;
+    }
 
 }
 .container-profile{
@@ -149,6 +153,7 @@ footer{
     height: 300px;
     align-items: baseline;
     color: $White;
+    justify-content: space-evenly;
 
 }
 .descripcion-footer{
@@ -174,7 +179,9 @@ footer{
     
 }
 .icons{
-    background-color: brown;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
 }
 @media only screen and (max-width: 375px) {
     header {
