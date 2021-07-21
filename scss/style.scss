@@ -76,6 +76,15 @@ main{
     margin: $margins-op-up;
     color: $White;
 }
+.get{
+    border: none;
+    color: $White;
+    border-radius: 10px;
+    width: 22%;
+    height: 30px;
+    background: linear-gradient(to right, $Cyan, $Blue);
+    
+}
 .cont-center{
     display: flex;
     align-items: center;
@@ -144,9 +153,19 @@ main{
 .sign-up{
     width: 60%;
     background-color: $testimonials;
+    input{
+        width: 60;
+    }
     
 }
-
+.get-under{
+    border: none;
+    color: $White;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+    background: linear-gradient(to right, $Cyan, $Blue);
+}
 footer{
     background-color: $Darkfooter;
     display: flex;

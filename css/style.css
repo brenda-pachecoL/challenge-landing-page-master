@@ -116,6 +116,16 @@ main {
   color: white;
 }
 
+.get {
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 22%;
+  height: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+}
+
 .cont-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,6 +218,20 @@ main {
 .sign-up {
   width: 60%;
   background-color: #202a3c;
+}
+
+.sign-up input {
+  width: 60;
+}
+
+.get-under {
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 20%;
+  height: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background: linear-gradient(to right, #65e2d9, #339ecc);
 }
 
 footer {
