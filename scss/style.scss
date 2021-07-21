@@ -154,14 +154,16 @@ main{
     width: 60%;
     background-color: $testimonials;
     input{
-        width: 60;
+        width: 60%;
+        height: 30px;
+        border-radius: 20px;
     }
     
 }
 .get-under{
     border: none;
     color: $White;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 20%;
     height: 30px;
     background: linear-gradient(to right, $Cyan, $Blue);

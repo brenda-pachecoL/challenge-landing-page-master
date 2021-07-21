@@ -221,13 +221,15 @@ main {
 }
 
 .sign-up input {
-  width: 60;
+  width: 60%;
+  height: 30px;
+  border-radius: 20px;
 }
 
 .get-under {
   border: none;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 20%;
   height: 30px;
   background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
