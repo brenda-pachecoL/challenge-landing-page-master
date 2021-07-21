@@ -175,4 +175,19 @@ footer{
 .icons{
     background-color: brown;
 }
+@media only screen and (max-width: 375px) {
+    header {
+      background-color: red;
+    .logo_up{
+        width: 30%;
+    }
+    .logo{
+        width: 100%
+    }
+    .menu{
+        width: 60%;
+    }
+}
+
+  }
 

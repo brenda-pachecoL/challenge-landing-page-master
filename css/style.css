@@ -246,7 +246,22 @@ footer {
   color: white;
 }
 
-.icons .ion-icon {
-  background-color: black;
+.icons {
+  background-color: brown;
+}
+
+@media only screen and (max-width: 375px) {
+  header {
+    background-color: red;
+  }
+  header .logo_up {
+    width: 30%;
+  }
+  header .logo {
+    width: 100%;
+  }
+  header .menu {
+    width: 60%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
