@@ -114,7 +114,7 @@ main{
     justify-content: space-around;
 }
 .profile{
-    margin: 10% 0 20% 0%;
+    margin: 10% 0 10% 0%;
     width: 27%;
     border-radius: 5px;
     color: $White;
@@ -150,9 +150,20 @@ main{
           }
       }
 }
+.contenedor{
+    width: 100%;
+    height: 200px;
+   position: relative;
+}
 .sign-up{
+    position: absolute;
     width: 60%;
     background-color: $testimonials;
+    padding: 15px;
+    text-align: center;
+    color: $White;
+    top: 20%;
+    left: 20%;
     input{
         width: 60%;
         height: 30px;
@@ -167,6 +178,10 @@ main{
     width: 20%;
     height: 30px;
     background: linear-gradient(to right, $Cyan, $Blue);
+}
+.sign-up-data{ 
+    display: flex;
+    justify-content: center;
 }
 footer{
     background-color: $Darkfooter;
@@ -203,6 +218,24 @@ footer{
     width: 10%;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+
+.cont1{
+    background-color: royalblue;
+    width: 100%;
+    height: 300px;
+}
+.cont2{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+.centrado{
+    width: 80%;
+    height: 100px;
+    background-color: black;
 }
 @media only screen and (max-width: 375px) {
     header {
