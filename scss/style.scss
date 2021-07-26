@@ -164,6 +164,12 @@ main{
     color: $White;
     top: 20%;
     left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        width: 80%;
+    }
     input{
         width: 60%;
         height: 30px;
@@ -182,6 +188,8 @@ main{
 .sign-up-data{ 
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 10px;
 }
 footer{
     background-color: $Darkfooter;
@@ -190,6 +198,7 @@ footer{
     align-items: baseline;
     color: $White;
     justify-content: space-evenly;
+    padding-top: 100px;
 
 }
 .descripcion-footer{
