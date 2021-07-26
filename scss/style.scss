@@ -318,6 +318,15 @@ footer{
     }
 }
 
+.container-profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: 8% 0%;
+    .profile{
+        width: 80%;
+    }
+}
   }
   
 
