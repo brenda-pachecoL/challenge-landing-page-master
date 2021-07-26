@@ -365,5 +365,9 @@ footer {
   header .menu {
     width: 60%;
   }
+  .get {
+    border-radius: 18px;
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
