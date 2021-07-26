@@ -350,6 +350,9 @@ footer {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
   header {
     background-color: red;
   }
