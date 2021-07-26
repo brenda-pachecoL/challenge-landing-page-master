@@ -303,6 +303,19 @@ footer{
 .options-up{
     margin: 10% 0% 10% 0;
 }
+.cont-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .img-productive{
+        width: 90%;
+    }
+    div{
+        width: 90%;
+        padding: 0%;
+        text-align: inherit;
+    }
+}
 
   }
   

@@ -400,5 +400,23 @@ footer {
   .options-up {
     margin: 10% 0% 10% 0;
   }
+  .cont-center {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cont-center .img-productive {
+    width: 90%;
+  }
+  .cont-center div {
+    width: 90%;
+    padding: 0%;
+    text-align: inherit;
+  }
 }
 /*# sourceMappingURL=style.css.map */
