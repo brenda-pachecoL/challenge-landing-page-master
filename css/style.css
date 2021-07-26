@@ -357,13 +357,15 @@ footer {
     background-color: red;
   }
   header .logo_up {
-    width: 30%;
+    width: 25%;
+    margin: 20px 0px 20px 13px;
   }
   header .logo {
     width: 100%;
   }
   header .menu {
-    width: 60%;
+    width: 50%;
+    margin: 20px 20px 20px 0px;
   }
   .get {
     border-radius: 18px;
