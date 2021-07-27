@@ -348,6 +348,35 @@ footer{
       margin: 10px;
   }
 }
+footer{
+    padding-top: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .descripcion-footer{
+        width: 80%;
+    }
+    .contact{
+        width: 80%;
+    }
+    .first-option{
+        width: 80%;
+        margin: 9% 0 0% 0px;
+        padding: 0%;
+        ul{
+            margin: 0%;
+            padding: 0%;
+            a{
+                margin: 0% 0% 5% 0%;
+            }
+        }
+    }
+    .icons{
+        width: 50%;
+        margin: 10%;
+    }
+}
   }
   
 
