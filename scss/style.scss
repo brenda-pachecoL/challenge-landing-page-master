@@ -216,6 +216,11 @@ footer{
 }
 .contact{
     width: 15%;
+    .number{
+        i{
+            color: yellow;
+        }
+    }
     
 }
 .first-option{
@@ -267,7 +272,7 @@ footer{
         width: 100%
     }
     .menu{
-        width: 60%;
+        width: 40%;
         margin: 20px 20px 20px 0px;
     }
 }

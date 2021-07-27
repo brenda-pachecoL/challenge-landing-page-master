@@ -301,6 +301,10 @@ footer {
   width: 15%;
 }
 
+.contact .number i {
+  color: yellow;
+}
+
 .first-option {
   width: 15%;
 }
@@ -361,7 +365,7 @@ footer {
     width: 100%;
   }
   header .menu {
-    width: 60%;
+    width: 40%;
     margin: 20px 20px 20px 0px;
   }
   .information-up .img-intro {
