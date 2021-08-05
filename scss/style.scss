@@ -20,9 +20,15 @@ header{
        justify-content: space-around;
        margin: 0%;
        padding: 0%;
+       a:hover{
+           COLOR: $White;
+        TEXT-DECORATION:underline;
+        font-size: 16px;
+       }
        a{
            text-decoration: none;
-           color: white;
+           color: $gray;
+          
        }
    }
 }
@@ -40,9 +46,14 @@ main{
     
 }
 .information-up{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image:url(/images/bg-curvy-desktop.svg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 65% 156%;
 }
 .img-intro{
     display: flex;
@@ -274,8 +285,8 @@ footer{
         width: 100%
     }
     .menu{
-        width: 40%;
-        margin: 20px 20px 20px 0px;
+        width: 60%;
+        margin: 5%;
     }
 }
 .information-up{

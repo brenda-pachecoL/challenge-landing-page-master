@@ -29,9 +29,15 @@ header ul {
   padding: 0%;
 }
 
+header ul a:hover {
+  COLOR: white;
+  TEXT-DECORATION: underline;
+  font-size: 16px;
+}
+
 header ul a {
   text-decoration: none;
-  color: white;
+  color: #dddddd;
 }
 
 .menu {
@@ -48,6 +54,7 @@ main {
 }
 
 .information-up {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,6 +65,10 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(/images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: 65% 156%;
 }
 
 .img-intro {
@@ -366,8 +377,8 @@ footer {
     width: 100%;
   }
   header .menu {
-    width: 40%;
-    margin: 20px 20px 20px 0px;
+    width: 60%;
+    margin: 5%;
   }
   .information-up .img-intro {
     width: 90%;
