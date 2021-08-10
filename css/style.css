@@ -32,7 +32,7 @@ header ul {
 header ul a:hover {
   COLOR: white;
   TEXT-DECORATION: underline;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 header ul a {
@@ -294,7 +294,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -358,11 +360,16 @@ footer {
 .first-option ul a {
   margin: 5%;
   text-decoration: none;
-  color: white;
+  color: #dddddd;
+}
+
+.first-option ul a:hover {
+  COLOR: white;
+  font-size: 16px;
 }
 
 .icons {
-  width: 10%;
+  width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

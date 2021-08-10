@@ -21,9 +21,9 @@ header{
        margin: 0%;
        padding: 0%;
        a:hover{
-           COLOR: $White;
+         COLOR: $White;
         TEXT-DECORATION:underline;
-        font-size: 16px;
+        font-size: 20px;
        }
        a{
            text-decoration: none;
@@ -214,10 +214,11 @@ main{
 footer{
     background-color: $Darkfooter;
     display: flex;
-    height: 300px;
+    height: fit-content;
     align-items: baseline;
     color: $White;
     justify-content: space-evenly;
+
     
 
 }
@@ -255,14 +256,19 @@ footer{
         flex-direction: column;
         a{
             margin: 5%;
-            text-decoration: none;
-            color: $White;
+                text-decoration: none;
+                color: $gray;
+               
+            }
+            a:hover{
+                COLOR: $White;
+                font-size: 16px;
+               }
         }
     }
     
-}
 .icons{
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: space-evenly;
 }
