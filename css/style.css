@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #181f2a;
+  background-color: #202a3c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@ main {
 }
 
 .information-up {
-  background-color: white;
+  background-color: #202a3c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,7 +183,7 @@ main {
       justify-content: space-around;
   background-image: url(/images/bg-quotes.png);
   background-repeat: no-repeat;
-  background-position: 3% 22%;
+  background-position: 10% 42%;
 }
 
 .profile {
@@ -309,12 +309,36 @@ footer {
   margin: 5%;
 }
 
-.contact {
-  width: 15%;
+.infor-descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
-.contact .number i {
-  color: yellow;
+.infor-descripcion .location-icon {
+  width: 20%;
+}
+
+.infor-descripcion p {
+  width: 80%;
+}
+
+.contact {
+  width: 20%;
+}
+
+.contact .cont-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .first-option {

@@ -9,7 +9,7 @@ body{
 
 }
 header{ 
-    background-color: $Darkmain;
+    background-color: $testimonials;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +46,7 @@ main{
     
 }
 .information-up{
-    background-color: white;
+    background-color: $testimonials;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +129,7 @@ main{
     justify-content: space-around;
     background-image: url(/images/bg-quotes.png);
     background-repeat: no-repeat;
-    background-position: 3% 22%;
+    background-position: 10% 42%;
 
     
 }
@@ -221,18 +221,31 @@ footer{
     
 
 }
+
 .descripcion-footer{
     width: 25%;
     margin: 5%;
 
 }
-.contact{
-    width: 15%;
-    .number{
-        i{
-            color: yellow;
-        }
+.infor-descripcion{
+    display: flex;
+    align-items: baseline;
+    .location-icon{
+        width: 20%;
     }
+    p{
+        width: 80%;
+    }
+}
+.contact{
+    width: 20%;
+    .cont-contact{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    }
+    
     
 }
 .first-option{
